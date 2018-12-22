@@ -1,16 +1,16 @@
 PODS:
-  - HotKey (0.1.1)
+  - Magnet (2.3.1)
 
 DEPENDENCIES:
-  - HotKey
+  - Magnet
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - HotKey
+    - Magnet
 
 SPEC CHECKSUMS:
-  HotKey: 0be143fd015544a63c51be6dc2066dbf455ced72
+  Magnet: f8dac2ffc845ffe68b2dd21c68a801f866f4a098
 
-PODFILE CHECKSUM: dc0dbed631ad18914c07f25c42807a1a897afea1
+PODFILE CHECKSUM: 5279694fa3659efd61ea0e23676a1539ff5fee08
 
 COCOAPODS: 1.6.0.beta.2

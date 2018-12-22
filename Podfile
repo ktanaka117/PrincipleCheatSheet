@@ -7,7 +7,7 @@ target 'PrincipleCheatSheet' do
 
   # Pods for PrincipleCheatSheet
 
-  pod 'HotKey'
+  pod 'Magnet'
 
   target 'PrincipleCheatSheetTests' do
     inherit! :search_paths

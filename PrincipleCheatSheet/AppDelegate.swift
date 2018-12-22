@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import HotKey
+import Magnet
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -27,12 +27,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     private func registerHotKey() {
-        let hotKey = HotKey(key: .p, modifiers: [.command, .control])
-
-        hotKey.keyDownHandler = { [weak self] in
-            guard let strongSelf = self else { return }
-
-            strongSelf.togglePopover(strongSelf)
+        // 4352 = Command Control
+        if let keyCombo = KeyCombo(keyCode: 37, carbonModifiers: 4352) {
+            let hotKey = HotKey(identifier: "CommandControlL", keyCombo: keyCombo, target: self, action: #selector(togglePopover(_:)))
+            hotKey.register()
         }
     }
 }
