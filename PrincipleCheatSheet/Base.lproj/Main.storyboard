@@ -686,14 +686,14 @@
             <objects>
                 <viewController storyboardIdentifier="ViewController" id="XfG-lQ-9wD" customClass="ViewController" customModule="PrincipleCheatSheet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="634" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="634" height="312"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6sj-h2-EQ3">
-                                <rect key="frame" x="0.0" y="0.0" width="634" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="634" height="312"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QVT-lG-3qd">
-                                        <rect key="frame" x="-2" y="291" width="119" height="29"/>
+                                        <rect key="frame" x="-2" y="283" width="119" height="29"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" alignment="left" title="SOLID原則" id="Wna-ZT-dwe">
                                             <font key="font" metaFont="systemBold" size="24"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -701,7 +701,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="w7p-m0-yjT">
-                                        <rect key="frame" x="-2" y="266" width="395" height="17"/>
+                                        <rect key="frame" x="-2" y="258" width="395" height="17"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="単一責任原則（Single Responsibility Principle）" id="0mS-B3-rlh">
                                             <font key="font" size="18" name=".HiraKakuInterface-W6"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -709,7 +709,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0tB-Sp-PqC">
-                                        <rect key="frame" x="-2" y="240" width="379" height="18"/>
+                                        <rect key="frame" x="-2" y="232" width="379" height="18"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="・クラス（型）を変更する理由はひとつ以上存在してはならない" id="0tM-JK-s0V">
                                             <font key="font" metaFont="system" size="14"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -717,7 +717,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uVP-nH-NGg">
-                                        <rect key="frame" x="-2" y="210" width="344" height="22"/>
+                                        <rect key="frame" x="-2" y="202" width="344" height="22"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="開放閉鎖の原則（Open/Closed Principle）" id="yIm-aL-ivL">
                                             <font key="font" metaFont="systemBold" size="18"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -725,7 +725,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="K0w-2x-s0Y">
-                                        <rect key="frame" x="-2" y="184" width="496" height="18"/>
+                                        <rect key="frame" x="-2" y="176" width="496" height="18"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="・クラス（型）は拡張に対して開いていて、修正に対して閉じていなければならない" id="43J-3s-nw9">
                                             <font key="font" metaFont="system" size="14"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -733,7 +733,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qtP-Uo-dJs">
-                                        <rect key="frame" x="-2" y="154" width="429" height="22"/>
+                                        <rect key="frame" x="-2" y="146" width="429" height="22"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="リスコフの置換原則（Liskov Substitution Principle）" id="ThP-V1-eNJ">
                                             <font key="font" metaFont="systemBold" size="18"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -741,7 +741,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cOi-yh-HaT">
-                                        <rect key="frame" x="-2" y="128" width="560" height="18"/>
+                                        <rect key="frame" x="-2" y="120" width="560" height="18"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="・基底クラスを使っている場所で代わりにサブクラスを使っても問題なく動かなければならない" id="42q-Kd-9c9">
                                             <font key="font" metaFont="system" size="14"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -749,7 +749,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jRp-xu-fUc">
-                                        <rect key="frame" x="-2" y="98" width="517" height="22"/>
+                                        <rect key="frame" x="-2" y="90" width="517" height="22"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="インターフェイス分離の原則（Interface Segregation Principle）" id="S02-ZM-zzI">
                                             <font key="font" metaFont="systemBold" size="18"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -757,7 +757,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kyr-eP-fTX">
-                                        <rect key="frame" x="-2" y="72" width="509" height="18"/>
+                                        <rect key="frame" x="-2" y="64" width="509" height="18"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="・クライアントに、クライアントが利用しないメソッドへの依存を強制してはならない" id="MmQ-Vj-n8h">
                                             <font key="font" metaFont="system" size="14"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -765,7 +765,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Yu1-wW-YKx">
-                                        <rect key="frame" x="-2" y="42" width="456" height="22"/>
+                                        <rect key="frame" x="-2" y="34" width="456" height="22"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="依存関係逆転の原則（Dependency Inversion Principle）" id="1Ss-7H-0E6">
                                             <font key="font" metaFont="systemBold" size="18"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -773,9 +773,9 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="N6G-MK-MHc">
-                                        <rect key="frame" x="-2" y="0.0" width="605" height="34"/>
-                                        <textFieldCell key="cell" lineBreakMode="clipping" title="・上位レベルのモジュールは下位レベルのモジュールに依存すべきではない。両方とも抽象に依存すべきである ・抽象は詳細に依存してはならない。詳細が抽象にいぞんすべきである" id="2yp-Rn-C3c">
-                                            <font key="font" metaFont="system"/>
+                                        <rect key="frame" x="-2" y="0.0" width="605" height="26"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="・上位レベルのモジュールは下位レベルのモジュールに依存すべきではない。両方とも抽象に依存すべきである ・抽象は詳細に依存してはならない。詳細が抽象に依存すべきである" id="2yp-Rn-C3c">
+                                            <font key="font" size="13" name=".HiraKakuInterface-W3"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
