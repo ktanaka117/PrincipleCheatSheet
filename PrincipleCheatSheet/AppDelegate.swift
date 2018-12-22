@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import HotKey
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -21,6 +22,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
 
         popover.contentViewController = ViewController.freshController()
+
+        registerHotKey()
+    }
+
+    private func registerHotKey() {
+        let hotKey = HotKey(key: .p, modifiers: [.command, .control])
+
+        hotKey.keyDownHandler = { [weak self] in
+            guard let strongSelf = self else { return }
+
+            strongSelf.togglePopover(strongSelf)
+        }
     }
 }
 
