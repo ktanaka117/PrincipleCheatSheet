@@ -27,11 +27,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     private func registerHotKey() {
-        // 4352 = Command Control
-        if let keyCombo = KeyCombo(keyCode: 37, carbonModifiers: 4352) {
-            let hotKey = HotKey(identifier: "CommandControlL", keyCombo: keyCombo, target: self, action: #selector(togglePopover(_:)))
-            hotKey.register()
-        }
+        // 35 = p
+        guard let keyCombo = KeyCombo(keyCode: 35, cocoaModifiers: [.control, .command]) else { return }
+        let hotKey = HotKey(identifier: "CommandControlL", keyCombo: keyCombo, target: self, action: #selector(togglePopover(_:)))
+        hotKey.register()
     }
 }
 
