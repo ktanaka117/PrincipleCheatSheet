@@ -30,7 +30,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // 35 = p
         guard let keyCombo = KeyCombo(keyCode: 35, cocoaModifiers: [.control, .command]) else { return }
         let hotKey = HotKey(
-                identifier: "CommandControlL",
+                identifier: "CommandControlP",
                 keyCombo: keyCombo,
                 target: self,
                 action: #selector(togglePopover(_:)))
