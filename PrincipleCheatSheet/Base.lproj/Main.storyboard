@@ -686,11 +686,11 @@
             <objects>
                 <viewController storyboardIdentifier="ViewController" id="XfG-lQ-9wD" customClass="ViewController" customModule="PrincipleCheatSheet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="634" height="312"/>
+                        <rect key="frame" x="0.0" y="0.0" width="634" height="328"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6sj-h2-EQ3">
-                                <rect key="frame" x="0.0" y="0.0" width="634" height="312"/>
+                                <rect key="frame" x="8" y="8" width="618" height="312"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QVT-lG-3qd">
                                         <rect key="frame" x="-2" y="283" width="119" height="29"/>
@@ -810,10 +810,10 @@
                             </stackView>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="6sj-h2-EQ3" secondAttribute="bottom" id="QsQ-bK-JsY"/>
-                            <constraint firstAttribute="trailing" secondItem="6sj-h2-EQ3" secondAttribute="trailing" id="aaF-7m-SfO"/>
-                            <constraint firstItem="6sj-h2-EQ3" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="luf-6J-iFR"/>
-                            <constraint firstItem="6sj-h2-EQ3" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="yL0-f4-1U7"/>
+                            <constraint firstAttribute="bottom" secondItem="6sj-h2-EQ3" secondAttribute="bottom" constant="8" id="QsQ-bK-JsY"/>
+                            <constraint firstAttribute="trailing" secondItem="6sj-h2-EQ3" secondAttribute="trailing" constant="8" id="aaF-7m-SfO"/>
+                            <constraint firstItem="6sj-h2-EQ3" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="8" id="luf-6J-iFR"/>
+                            <constraint firstItem="6sj-h2-EQ3" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="8" id="yL0-f4-1U7"/>
                         </constraints>
                     </view>
                 </viewController>
